@@ -1,0 +1,28 @@
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+.dashboard {
+  display: flex;
+  background-color: rgb(173, 173, 173);
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.currency__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency__item {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  margin: 2px;
+}
+
+.item__currency {
+  width: 60px;
+}
